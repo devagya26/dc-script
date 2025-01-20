@@ -1,0 +1,389 @@
+[
+  {
+    "epicName": "Epic 1",
+    "summary": "Implement Core Feature",
+    "description": "Development of the core feature set for the application.",
+    "type": "Epic",
+    "priority": "Custom Priority"
+  },
+  {
+    "epicName": "Epic 2",
+    "summary": "Enhance User Interface",
+    "description": "Improvement of the user interface for better user experience.",
+    "type": "Epic",
+    "priority": "High"
+  },
+  {
+    "epicName": "Epic 3",
+    "summary": "Integrate Payment Gateway",
+    "description": "Integration with third-party payment gateway.",
+    "type": "Epic",
+    "priority": "High"
+  },
+  {
+    "epicName": "Epic 4",
+    "summary": "Optimize Database",
+    "description": "Performance optimization for database queries.",
+    "type": "Epic",
+    "priority": "Custom Priority"
+  },
+  {
+    "epicName": "Epic 5",
+    "summary": "Improve Security",
+    "description": "Implementation of enhanced security features.",
+    "type": "Epic",
+    "priority": "High"
+  },
+  {
+    "summary": "Design wireframes for new feature",
+    "description": "Create wireframes for the new feature in Epic 1.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "relates to",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Develop feature module",
+    "description": "Develop the module based on the wireframes.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "is blocked by",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Test feature module",
+    "description": "Conduct testing on the developed module.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "blocks",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Improve navigation UI",
+    "description": "Enhance navigation UI as part of Epic 2.",
+    "type": "Story",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Update CSS styles",
+    "description": "Ensure CSS styles are consistent.",
+    "type": "Task",
+    "priority": "Low",
+    "linked": "duplicates",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Add PayPal integration",
+    "description": "Implement PayPal payment gateway.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "clones",
+    "key": "PROJ-3"
+  },
+  {
+    "summary": "Add Stripe integration",
+    "description": "Implement Stripe payment gateway.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "is cloned by",
+    "key": "PROJ-3"
+  },
+  {
+    "summary": "Refactor database schema",
+    "description": "Optimize database structure for faster queries.",
+    "type": "Story",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-4"
+  },
+  {
+    "summary": "Migrate legacy data",
+    "description": "Ensure smooth migration of old data.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "is blocked by",
+    "key": "PROJ-4"
+  },
+  {
+    "summary": "Implement SSL certificates",
+    "description": "Add SSL certificates to enhance security.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "blocks",
+    "key": "PROJ-5"
+  },
+  {
+    "summary": "Add user authentication",
+    "description": "Secure user authentication mechanism.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "relates to",
+    "key": "PROJ-5"
+  },
+  {
+    "summary": "Set up monitoring tools",
+    "description": "Set up monitoring tools to detect vulnerabilities.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "is duplicated by",
+    "key": "PROJ-5"
+  },
+  {
+    "summary": "Code review for feature X",
+    "description": "Perform code review for recently developed feature.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Create unit tests",
+    "description": "Develop unit tests for core modules.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "is blocked by",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Write documentation",
+    "description": "Add documentation for newly added APIs.",
+    "type": "Task",
+    "priority": "Low",
+    "linked": "blocks",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Deploy staging environment",
+    "description": "Prepare staging environment for testing.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "clones",
+    "key": "PROJ-3"
+  },
+  {
+    "summary": "Improve error logging",
+    "description": "Add more descriptive error logs to the system.",
+    "type": "Task",
+    "priority": "Low",
+    "linked": "relates to",
+    "key": "PROJ-4"
+  },
+  {
+    "summary": "Set up CI/CD pipeline",
+    "description": "Configure continuous integration and deployment pipeline.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "is blocked by",
+    "key": "PROJ-5"
+  },
+  {
+    "summary": "Fix UI bugs",
+    "description": "Resolve known UI issues reported by users.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Optimize API performance",
+    "description": "Enhance the speed of API responses.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "blocks",
+    "key": "PROJ-4"
+  },
+  {
+    "summary": "Implement role-based access control",
+    "description": "Add role-based access control to secure resources.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "is duplicated by",
+    "key": "PROJ-5"
+  },
+  {
+    "summary": "Add analytics tracking",
+    "description": "Implement tracking for user interactions.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Conduct user interviews",
+    "description": "Gather feedback from users about the new feature.",
+    "type": "Task",
+    "priority": "Low",
+    "linked": "clones",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Create load tests",
+    "description": "Test system performance under high load.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "is cloned by",
+    "key": "PROJ-4"
+  },
+  {
+    "summary": "Add localization support",
+    "description": "Enable multi-language support in the app.",
+    "type": "Story",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-3"
+  },
+  {
+    "summary": "Upgrade server infrastructure",
+    "description": "Move to the latest server hardware.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "blocks",
+    "key": "PROJ-4"
+  },
+  {
+    "summary": "Fix payment errors",
+    "description": "Resolve issues with failed payment transactions.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "relates to",
+    "key": "PROJ-3"
+  },
+  {
+    "summary": "Conduct penetration testing",
+    "description": "Identify vulnerabilities through penetration testing.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "is blocked by",
+    "key": "PROJ-5"
+  },
+  {
+    "summary": "Implement email notifications",
+    "description": "Set up email notifications for key user actions.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "duplicates",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Refactor backend code",
+    "description": "Simplify and improve the backend codebase.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Optimize search functionality",
+    "description": "Improve the performance of search queries.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "clones",
+    "key": "PROJ-4"
+  },
+  {
+    "summary": "Add mobile support",
+    "description": "Make the application fully responsive on mobile devices.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "relates to",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Write integration tests",
+    "description": "Add integration tests for key workflows.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "is blocked by",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Fix accessibility issues",
+    "description": "Ensure the application meets accessibility standards.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "blocks",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Enable offline mode",
+    "description": "Allow users to access the app without an internet connection.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "relates to",
+    "key": "PROJ-3"
+  },
+  {
+    "summary": "Create API rate limiter",
+    "description": "Prevent abuse by adding rate limiting to APIs.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "is duplicated by",
+    "key": "PROJ-5"
+  },
+  {
+    "summary": "Upgrade to the latest framework version",
+    "description": "Ensure compatibility with the latest framework version.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-4"
+  },
+  {
+    "summary": "Add dark mode feature",
+    "description": "Provide a dark mode option for better usability at night.",
+    "type": "Task",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Integrate AI recommendation system",
+    "description": "Use AI to recommend products or features based on user behavior.",
+    "type": "Story",
+    "priority": "High",
+    "linked": "is blocked by",
+    "key": "PROJ-1"
+  },
+  {
+    "summary": "Create feedback mechanism",
+    "description": "Add a feature to collect feedback directly from users.",
+    "type": "Task",
+    "priority": "Low",
+    "linked": "relates to",
+    "key": "PROJ-3"
+  },
+  {
+    "summary": "Implement chatbot support",
+    "description": "Add a chatbot to assist users with common issues.",
+    "type": "Story",
+    "priority": "Medium",
+    "linked": "clones",
+    "key": "PROJ-4"
+  },
+  {
+    "summary": "Integrate SSO authentication",
+    "description": "Enable Single Sign-On (SSO) for easier access.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "is cloned by",
+    "key": "PROJ-5"
+  },
+  {
+    "summary": "Build marketing dashboard",
+    "description": "Provide analytics for marketing campaigns.",
+    "type": "Story",
+    "priority": "Medium",
+    "linked": "relates to",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Optimize image loading",
+    "description": "Ensure images load efficiently on all devices.",
+    "type": "Task",
+    "priority": "High",
+    "linked": "is duplicated by",
+    "key": "PROJ-3"
+  }
+]
