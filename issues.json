@@ -1,0 +1,91 @@
+[
+    {
+      "epicName": "Epic 1",
+      "summary": "Implement Core Feature",
+      "description": "Development of the core feature set for the application.",
+      "type": "Epic",
+      "priority": "Custom Priority"
+    },
+    {
+      "epicName": "Epic 2",
+      "summary": "Enhance User Interface",
+      "description": "Improvement of the user interface for better user experience.",
+      "type": "Epic",
+      "priority": "High"
+    },
+    {
+      "epicName": "Epic 3",
+      "summary": "Integrate Payment Gateway",
+      "description": "Integration with third-party payment gateway.",
+      "type": "Epic",
+      "priority": "High"
+    },
+    {
+      "epicName": "Epic 4",
+      "summary": "Optimize Database",
+      "description": "Performance optimization for database queries.",
+      "type": "Epic",
+      "priority": "Custom Priority"
+    },
+    {
+      "epicName": "Epic 5",
+      "summary": "Improve Security",
+      "description": "Implementation of enhanced security features.",
+      "type": "Epic",
+      "priority": "High"
+    },
+    {
+      "summary": "Design wireframes for new feature",
+      "type": "Bug",
+      "priority": "High",
+      "linked": "relates to",
+      "key": "PROJ-3"
+    },
+    {
+      "summary": "Design wireframes for new feature",
+      "type": "Bug",
+      "priority": "High",
+      "linked": "relates to",
+      "key": "PROJ-2"
+    },
+    {
+      "summary": "Design wireframes for new feature",
+      "description": "Create wireframes for the new feature in Epic 1.",
+      "type": "Task",
+      "priority": "High",
+      "linked": "relates to",
+      "key": "PROJ-1"
+    },
+    {
+      "summary": "Develop feature module",
+      "description": "Develop the module based on the wireframes.",
+      "type": "Story",
+      "priority": "High",
+      "linked": "is blocked by",
+      "key": "PROJ-1"
+    },
+    {
+      "summary": "Test feature module",
+      "description": "Conduct testing on the developed module.",
+      "type": "Task",
+      "priority": "Medium",
+      "linked": "blocks",
+      "key": "PROJ-1"
+    },
+    {
+      "summary": "Improve navigation UI",
+      "description": "Enhance navigation UI as part of Epic 2.",
+      "type": "Story",
+      "priority": "Medium",
+      "linked": "relates to",
+      "key": "PROJ-2"
+    },
+    {
+      "summary": "Update CSS styles",
+      "description": "Ensure CSS styles are consistent.",
+      "type": "Task",
+      "priority": "Low",
+      "linked": "duplicates",
+      "key": "PROJ-2"
+    }
+]

@@ -35,28 +35,10 @@ import path from "path";
     await page.getByLabel(selector.summaryReq).fill(issue.summary);
 
     //Description
-    await page.locator(selector.description).contentFrame().getByRole(selector.paragraph).click();
-    await page.locator(selector.description).contentFrame().getByLabel(selector.richTextArea).fill(issue.description);
-
-    // try {
-    //     await page.locator(selector.description).contentFrame().getByRole(selector.paragraph).click();
-    //     await page.locator(selector.description).contentFrame().getByLabel(selector.richTextArea).fill(issue.description);
-    // } catch (error) {
-    //     console.error("First selector failed. Trying the fallback selector...");
-    //     await page.frameLocator(selector.des).locator('html').click();
-    //     await page.frameLocator(selector.des).getByLabel(selector.richTextArea).fill(issue.description);
-    // }
-
-    // await page.frameLocator(selector.des).locator('html').click();
-    // await page.frameLocator(selector.des).getByLabel(selector.richTextArea).fill(issue.description);
-
-    // if (issue.type === 'bug') {
-    //     await page.frameLocator(selector.des).locator('html').click();
-    //     await page.frameLocator(selector.des).getByLabel(selector.richTextArea).fill(issue.description);
-    // } else {
-    //     await page.locator(selector.description).contentFrame().getByRole(selector.paragraph).click();
-    //     await page.locator(selector.description).contentFrame().getByLabel(selector.richTextArea).fill(issue.description);
-    // }
+    if (issue.description){
+        await page.locator(selector.description).contentFrame().getByRole(selector.paragraph).click();
+        await page.locator(selector.description).contentFrame().getByLabel(selector.richTextArea).fill(issue.description);    
+    }
 
     //select Priority
     await page.getByRole(selector.combox, { name: selector.priority }).click();

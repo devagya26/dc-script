@@ -25,7 +25,6 @@ export const selector = {
     paragraph : 'paragraph',
     description : 'iframe[title="Rich Text Area"]',
     des : "//iframe[@id='mce_7_ifr']",
-    // des : "(//iframe[@id='mce_7_ifr'])[1]",
     richTextArea : 'Description, Rich Text Area.',
     combox : 'combobox',
     labels : 'Labels',

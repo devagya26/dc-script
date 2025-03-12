@@ -36,6 +36,20 @@
   },
   {
     "summary": "Design wireframes for new feature",
+    "type": "Bug",
+    "priority": "High",
+    "linked": "relates to",
+    "key": "PROJ-3"
+  },
+  {
+    "summary": "Design wireframes for new feature",
+    "type": "Bug",
+    "priority": "High",
+    "linked": "relates to",
+    "key": "PROJ-2"
+  },
+  {
+    "summary": "Design wireframes for new feature",
     "description": "Create wireframes for the new feature in Epic 1.",
     "type": "Task",
     "priority": "High",
