@@ -9,3 +9,5 @@
 2. Issue Card Fields - Custom Issue Card Field
 3. Issue Type - Custom Issue Type (For Example : Improvement, Custom Issue Type)
 4. Linking Issues - Custom Linking Field
+
+# trial_success.js is the Intermediate JSON file.
